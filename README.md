@@ -1,7 +1,7 @@
 # docker-samba
 
 [![Latest Github release](https://img.shields.io/github/release/rugarci/docker-samba.svg)](https://github.com/rugarci/docker-samba/releases/latest)
-[![Image size](https://img.shields.io/docker/image-size/rugarci/samba/latest)](https://hub.docker.com/r/rugarci/samba)
+[![Image size](https://img.shields.io/docker/image-size/rugarci/samba)](https://hub.docker.com/r/rugarci/samba)
 [![Docker Pulls](https://img.shields.io/docker/pulls/rugarci/samba.svg)](https://hub.docker.com/r/rugarci/samba)
 
 Samba in Docker inspired on https://github.com/dperson/samba/ and https://github.com/uPagge/samba
