@@ -59,7 +59,7 @@ RUN chmod a+x /usr/bin/*.sh
 
 EXPOSE 137/udp 138/udp 139 445
 
-HEALTHCHECK --interval=60s --timeout=15s \
+HEALTHCHECK --interval=120s --timeout=30s \
             CMD smbclient -L \\localhost -U % -m SMB3
 
 VOLUME ["/etc", "/var/cache/samba", "/var/lib/samba", "/var/log/samba",\
